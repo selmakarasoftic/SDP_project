@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+# Model files
+*.pkl
+# Dataset link is provided in README file
+*.csv
+# IDE files
+.idea/
+# Compiled files
+__pycache__/
+*.pyc
