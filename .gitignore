@@ -1,11 +1,35 @@
 # Python virtual environment
 .venv/
-# Model files
-*.pkl
-# Dataset link is provided in README file
-*.csv
+venv/
+
 # IDE files
 .idea/
+.vscode/
+
 # Compiled files
 __pycache__/
 *.pyc
+
+# Large training dataset
+DatasetFULL.csv
+Reviews.csv
+amazon_fine_food_reviews.csv
+Dataset.csv
+
+# Optional local test files
+raw_sample_reviews.csv
+cleaned_sample_reviews.csv
+
+# Keep model files needed for Streamlit deployment
+!sentiment_model.pkl
+!tfidf_vectorizer.pkl
+
+# Keep evaluation files needed for Streamlit Model Evaluation tab
+!classification_report.txt
+!confusion_matrix.csv
+!sample_predictions.csv
+!gender_distribution.csv
+!gender_sentiment_summary.csv
+
+# Keep small controlled testing dataset if you want to show/test batch upload
+!test_reviews_with_profile_names.csv

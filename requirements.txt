@@ -1,0 +1,6 @@
+streamlit
+vaderSentiment
+joblib
+pandas
+scikit-learn
+nltk
